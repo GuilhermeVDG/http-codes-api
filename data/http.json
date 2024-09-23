@@ -1,0 +1,21 @@
+[
+    {
+      "code": 200,
+      "title": "OK",
+      "description": "The request was successful and the server returned the requested resource. This is the most common success status, indicating that the server processed the request and returned the expected result.",
+      "image": "/images/dummy.png"
+    },
+    {
+      "code": 404,
+      "title": "Not Found",
+      "description": "The requested resource could not be found on the server. This typically happens when the resource is missing or the URL is incorrect.",
+      "image": "/images/dummy.png"
+    },
+    {
+      "code": 500,
+      "title": "Internal Server Error",
+      "description": "The server encountered an unexpected condition that prevented it from fulfilling the request. This is usually a general error message for server-side issues.",
+      "image": "/images/dummy.png"
+    }
+  ]
+  
