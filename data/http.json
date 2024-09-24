@@ -1,21 +1,80 @@
 [
-    {
-      "code": 200,
-      "title": "OK",
-      "description": "The request was successful and the server returned the requested resource. This is the most common success status, indicating that the server processed the request and returned the expected result.",
-      "image": "/images/dummy.png"
-    },
-    {
-      "code": 404,
-      "title": "Not Found",
-      "description": "The requested resource could not be found on the server. This typically happens when the resource is missing or the URL is incorrect.",
-      "image": "/images/dummy.png"
-    },
-    {
-      "code": 500,
-      "title": "Internal Server Error",
-      "description": "The server encountered an unexpected condition that prevented it from fulfilling the request. This is usually a general error message for server-side issues.",
-      "image": "/images/dummy.png"
-    }
-  ]
-  
+  {
+    "code": 200,
+    "title": "OK",
+    "description": "A requisição foi bem-sucedida e o servidor retornou o recurso solicitado. Este é o status de sucesso mais comum, indicando que o servidor processou a requisição e retornou o resultado esperado.",
+    "image": "/images/dummy.png"
+  },
+  {
+    "code": 201,
+    "title": "Created",
+    "description": "A requisição foi bem-sucedida e resultou na criação de um novo recurso. O servidor retornou este status indicando que a criação ocorreu, geralmente usado em respostas de POST.",
+    "image": "/images/dummy.png"
+  },
+  {
+    "code": 204,
+    "title": "No Content",
+    "description": "A requisição foi bem-sucedida, mas o servidor não precisa retornar nenhuma informação adicional. Isso é comum em operações onde não há conteúdo a ser exibido, como uma exclusão bem-sucedida.",
+    "image": "/images/dummy.png"
+  },
+  {
+    "code": 301,
+    "title": "Moved Permanently",
+    "description": "O recurso solicitado foi movido permanentemente para uma nova URL. O cliente deve usar a URL retornada para futuras requisições.",
+    "image": "/images/dummy.png"
+  },
+  {
+    "code": 400,
+    "title": "Bad Request",
+    "description": "O servidor não conseguiu entender a requisição devido a uma sintaxe inválida. O cliente deve corrigir a requisição antes de tentar novamente.",
+    "image": "/images/dummy.png"
+  },
+  {
+    "code": 401,
+    "title": "Unauthorized",
+    "description": "A requisição necessita de autenticação. O servidor não pode completar a requisição sem que o cliente forneça credenciais válidas.",
+    "image": "/images/dummy.png"
+  },
+  {
+    "code": 403,
+    "title": "Forbidden",
+    "description": "O servidor entendeu a requisição, mas se recusa a autorizá-la. Isso geralmente ocorre quando o cliente não tem permissão para acessar o recurso.",
+    "image": "/images/dummy.png"
+  },
+  {
+    "code": 404,
+    "title": "Not Found",
+    "description": "O recurso solicitado não pôde ser encontrado no servidor. Isso geralmente acontece quando o recurso está ausente ou o URL está incorreto.",
+    "image": "/images/dummy.png"
+  },
+  {
+    "code": 409,
+    "title": "Conflict",
+    "description": "A requisição não pôde ser completada devido a um conflito com o estado atual do recurso. Isso pode ocorrer em operações de atualização ou exclusão de dados que causam inconsistências.",
+    "image": "/images/dummy.png"
+  },
+  {
+    "code": 500,
+    "title": "Internal Server Error",
+    "description": "O servidor encontrou uma condição inesperada que o impediu de completar a requisição. Isso geralmente é uma mensagem genérica de erro do lado do servidor.",
+    "image": "/images/dummy.png"
+  },
+  {
+    "code": 502,
+    "title": "Bad Gateway",
+    "description": "O servidor recebeu uma resposta inválida de um servidor upstream ao tentar completar a requisição. Geralmente indica problemas com um servidor intermediário.",
+    "image": "/images/dummy.png"
+  },
+  {
+    "code": 503,
+    "title": "Service Unavailable",
+    "description": "O servidor está temporariamente indisponível, geralmente devido a manutenção ou sobrecarga. O cliente pode tentar novamente após algum tempo.",
+    "image": "/images/dummy.png"
+  },
+  {
+    "code": 504,
+    "title": "Gateway Timeout",
+    "description": "O servidor, atuando como gateway, não recebeu uma resposta a tempo de um servidor upstream. Isso pode ocorrer devido a problemas de rede ou atrasos no servidor intermediário.",
+    "image": "/images/dummy.png"
+  }
+]
